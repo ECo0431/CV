@@ -1,0 +1,40 @@
+.picto-menu-burger {
+  width: 50px;
+}
+
+.box-picto-menu-burger,
+.box-picto-close {
+  display: flex;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  z-index: 99;
+  align-items: center;
+}
+
+.box-picto-menu-burger:hover,
+.box-picto-close:hover {
+  width: 110px;
+  justify-content: space-between;
+}
+
+.picto-close {
+  width: 50px;
+}
+
+.menu {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  animation: animMenu 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

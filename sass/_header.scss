@@ -1,0 +1,123 @@
+header {
+  background-color: white;
+  border-radius: 15px;
+  width: 1200px;
+  height: 565px;
+  border: 1px solid #d5d4d2;
+  position: relative;
+  animation: animHeader 1s ease-in-out;
+  z-index: 4;
+}
+
+.img-header {
+  width: 1200px;
+  border-radius: 15px 15px 0px 0px;
+  position: absolute;
+}
+
+.img-profil {
+  width: 200px;
+  border-radius: 100%;
+  border: 5px solid white;
+  position: relative;
+  top: 180px;
+  left: 40px;
+}
+
+.nom-prenom {
+  position: relative;
+  top: 200px;
+  left: 40px;
+}
+
+.poste {
+  position: relative;
+  top: 200px;
+  left: 40px;
+}
+
+.coordonnes {
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  position: relative;
+  top: 60px;
+  right: 40px;
+  text-align: end;
+  line-height: 1.5em;
+  color: #848484;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1250px) {
+  header {
+    width: 900px;
+    height: 455px;
+  }
+  .img-header {
+    width: 900px;
+  }
+  .img-profil {
+    width: 150px;
+    top: 138px;
+  }
+  .nom-prenom {
+    top: 150px;
+  }
+  .poste {
+    top: 150px;
+  }
+  .coordonnes {
+    top: 5px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 899px) {
+  header {
+    width: 700px;
+    height: 455px;
+  }
+  .img-header {
+    width: 700px;
+  }
+  .img-profil {
+    width: 150px;
+    top: 138px;
+  }
+  .nom-prenom {
+    top: 150px;
+  }
+  .poste {
+    top: 150px;
+  }
+  .coordonnes {
+    top: 5px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 699px) {
+  header {
+    width: 500px;
+    height: 547px;
+  }
+  .img-header {
+    width: 500px;
+  }
+  .img-profil {
+    width: 150px;
+    top: 70px;
+    left: 163px;
+  }
+  .nom-prenom {
+    top: 90px;
+    left: 119px;
+  }
+  .poste {
+    top: 90px;
+    left: 115px;
+  }
+  .coordonnes {
+    top: 110px;
+    right: 5px;
+    text-align: center;
+  }
+}

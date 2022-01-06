@@ -1,0 +1,50 @@
+.box-experiences {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.box-experience {
+  animation: animFormations 2.5s ease-in-out;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.logo-experiences {
+  width: 110px;
+}
+
+.trait {
+  width: 3px;
+  height: 573px;
+  background-color: #d5d4d2;
+  position: absolute;
+  top: 189px;
+  left: 136px;
+}
+
+.trait-date {
+  width: 95px;
+  height: 2px;
+  background-color: #d5d4d2;
+  position: absolute;
+  top: 54px;
+  left: 0px;
+}
+
+.rond-date {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background-color: #d5d4d2;
+  position: absolute;
+  top: 50px;
+  left: 92px;
+}
