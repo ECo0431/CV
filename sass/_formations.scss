@@ -38,11 +38,18 @@
   background-color: #f3f2ef;
 }
 
+@media screen and (min-width: 700px) and (max-width: 899px) {
+  .dates-formations {
+    margin-right: 0px;
+  }
+}
+
 @media screen and (min-width: 0px) and (max-width: 699px) {
   .box-formation {
     padding: 0;
+    flex-direction: column;
   }
   .dates-formations {
-    margin-right: 10px;
+    margin-right: 0px;
   }
 }

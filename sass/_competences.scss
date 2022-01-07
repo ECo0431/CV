@@ -38,3 +38,9 @@
   margin: 20px;
   box-shadow: 0px 0px 20px #848484;
 }
+
+@media screen and (min-width: 0px) and (max-width: 799px) {
+  .box-all-logo-competences {
+    justify-content: center;
+  }
+}

@@ -96,28 +96,29 @@ header {
 
 @media screen and (min-width: 0px) and (max-width: 699px) {
   header {
-    width: 500px;
-    height: 547px;
+    width: 400px;
+    height: 570px;
   }
+
   .img-header {
-    width: 500px;
+    width: 400px;
   }
   .img-profil {
     width: 150px;
-    top: 70px;
-    left: 163px;
+    top: 60px;
+    left: 115px;
   }
   .nom-prenom {
     top: 90px;
-    left: 119px;
+    left: 75px;
   }
   .poste {
     top: 90px;
-    left: 115px;
+    left: 72px;
   }
   .coordonnes {
-    top: 110px;
-    right: 5px;
+    top: 120px;
+    left: 0px;
     text-align: center;
   }
 }

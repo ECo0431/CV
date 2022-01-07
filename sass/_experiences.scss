@@ -48,3 +48,14 @@
   top: 50px;
   left: 92px;
 }
+
+@media screen and (min-width: 0px) and (max-width: 799px) {
+  .box-experiences {
+    flex-direction: column;
+  }
+  .trait-date,
+  .trait,
+  .rond-date {
+    display: none;
+  }
+}
