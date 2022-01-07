@@ -4,310 +4,267 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/css/style.css" type="text/css" media="screen" />
-    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href=".public/css/style.css" type="text/css" media="screen" />
     <title>CV ELIE COFFEC</title>
 </head>
-<body id="body">
+<body>
     <div class="site">
-        <header>
-            <!-- <a href="https://www.facebook.com/profile.php?id=100071869025489" target="_blank">
-                <img class="logo-reseau logo-fb" src="./images/logo_fb.png">
-            </a> -->
-            <a href="https://www.linkedin.com/in/elie-coffec-26a447111/" target="_blank">
-                <img class="logo-reseau logo-linkedin" src="./images/logo_linkedin.png">
-            </a>
-            <img class="img-header" src="images/fond_header.jpeg">
-            <img class="img-profil" src="images/photo_profil.jpg">
-            <h1 class="nom-prenom">Elie Coffec</h1>
-            <h2 class="poste">Développeur Web </h2>
-            <h3 class="coordonnes">07 82 10 51 61
-            <br>eliecoffec@gmail.com
-            <br>1, place de la rampe
-            <br>44600 Saint-Nazaire</h3>
+        <header class="header">
+            <img class="header--img-couv" alt="bureau avec un ordinateur" src="./images/header/fond_header.jpeg">
+            <img class="header--img-profil" alt="photo de profil" src="./images/header/photo_profil.jpg">
+            <div class="header--box-txt">
+                <div>
+                    <h1 class="txt-left">Elie Coffec</h1>
+                    <h2 class="txt-left">Développeur Web</h2>
+                </div>
+                <h3>
+                    07 82 10 51 61
+                    <br>eliecoffec@gmail.com
+                    <br>1, place de la rampe
+                    <br>44600 Saint-Nazaire
+                </h3>
+            </div>
         </header>
         <main>
-            <div class="box-picto-menu-burger">
-                <svg class="picto-menu-burger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
-                <p class="txt-menu">MENU</p>
-            </div>
-            <div class="box-picto-close none">
-                <svg class="picto-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-                <p class="txt-close">CLOSE</p>
-            </div>
-            <div class="menu none" >
-                <nav>
-                    <ul class="box-menu">
-                        <li>
-                            <a class="liens-menu" href="#competences">
-                                COMPÉTENCES
-                            </a>
-                        </li>
-                        <li>
-                            <a class="liens-menu" href="#formations">
-                                FORMATIONS
-                            </a>
-                        </li>
-                        <li>
-                            <a class="liens-menu" href="#experiences">
-                                EXPÉRIENCES
-                            </a>
-                        </li>
-                        <li>
-                            <a class="liens-menu" href="#books">
-                                BOOK
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <section class="box-competences" id="competences">
-                <article>
-                    <h1 class="h1-sections competences">Compétences</h1>
-                    <br>
-                    <h2 class="h2-sections developpeur">Développeur :</h2>
+            <article class="article">
+                <h1>Compétences</h1>
+                <section class="section">
+                    <h2>Développeur :</h2>
                     <div class="box-all-logo-competences">
-                        <a href="pages/certificat_html.html" target="_blank" class="box-logo box-logo-html">
-                            <img class="logo-comptences logo-html" src="./images/logo_html.png">
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo html 5" src="./images/competences/logo_html.png">
                             <p>HTML 5</p>
-                        </a>
-                        <a href="" class="box-logo box-logo-css">
-                            <img class="logo-comptences logo-css" src="./images/logo_css.png">
+                        </div>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo css 3" src="./images/competences/logo_css.png">
                             <p>CSS 3</p>
-                        </a>
-                        <a href="" class="box-logo box-logo-seo">
-                            <img class="logo-comptences logo-seo" src="./images/logo_seo.png">
+                        </div>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo SEO" src="./images/competences/logo_seo.png">
                             <p>SEO</p>
-                        </a>
-                        <a href="" class="box-logo box-logo-accessibilite">
-                            <img class="logo-comptences logo-accessibilite" src="./images/logo_accessibilite.png">
+                        </div>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo Accessibilité" src="./images/competences/logo_accessibilite.png">
                             <p>Accessibilité</p>
-                        </a>
-                        <a href="" class="box-logo box-logo-sass">
-                            <img class="logo-comptences logo-sass" src="./images/logo_sass.png">
+                        </div>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo Sass" src="./images/competences/logo_sass.png">
                             <p>Sass</p>
-                        </a>
-                        <a href="" class="box-logo box-logo-terminal">
-                            <img class="logo-comptences logo-terminal" src="./images/logo_terminal.png">
+                        </div>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo terminal" src="./images/competences/logo_terminal.png">
                             <p>Bash</p>
-                        </a>
-                        <a href="" class="box-logo box-logo-git">
-                            <img class="logo-comptences logo-git" src="./images/logo_git.png">
+                        </div>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo Git hub" src="./images/competences/logo_git.png">
                             <p>Git Hub</p>
-                        </a>
-                        <a href="" class="box-logo box-logo-js">
-                            <img class="logo-comptences logo-js" src="./images/logo_js.png">
+                        </div>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo Javascript" src="./images/competences/logo_js.png">
                             <p>Javascript</p>
-                        </a> 
-                        <a href="" class="box-logo box-logo-node">
-                            <img class="logo-comptences logo-node" src="./images/logo_node.png">
+                        </div>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo Node JS" src="./images/competences/logo_node.png">
                             <p>Node JS</p>
-                        </a>
-                        <a href="" class="box-logo box-logo-mongo">
-                            <img class="logo-comptences logo-mongo" src="./images/logo_mongo.png">
+                        </div>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo Mongo DB" src="./images/competences/logo_mongo.png">
                             <p>Mongo DB</p>
-                        </a>
-                        <a href="" class="box-logo box-logo-react">
-                            <img class="logo-comptences logo-react" src="./images/logo_react.png">
+                        </div>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo React" src="./images/competences/logo_react.png">
                             <p>React</p>
-                        </a>
-                        <a href="" class="box-logo box-logo-mysql">
-                            <img class="logo-comptences logo-mysql" src="./images/logo_mysql.png">
+                        </div>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo MySQL" src="./images/competences/logo_mysql.png">
                             <p>MySQL</p>
-                        </a>
+                        </div>
                     </div>
-                    <h2 class="h2-sections pao">PAO :</h2>
+                </section>
+                <section>
+                    <h2>PAO :</h2>
                     <div class="box-all-logo-competences">
-                        <div class="box-logo box-logo-ps">
-                            <img class="logo-comptences logo-ps" src="./images/logo_ps.png">
-                            <p>Photoshop</p>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo Photoshop CC" src="./images/competences/logo_ps.png">
+                            <p>Photoshop CC</p>
                         </div>
-                        <div class="box-logo box-logo-ai">
-                            <img class="logo-comptences logo-ai" src="./images/logo_ai.png">
-                            <p>Illustrator</p>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo Illustrator CC" src="./images/competences/logo_ai.png">
+                            <p>Illustrator CC</p>
                         </div>
-                        <div class="box-logo box-logo-id">
-                            <img class="logo-comptences logo-id" src="./images/logo_id.png">
-                            <p>InDesign</p>
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo InDesign CC" src="./images/competences/logo_id.png">
+                            <p>InDesign CC</p>
                         </div>
-                        <div class="box-logo box-logo-packedge">
-                            <img class="logo-comptences logo-packedge" src="./images/logo_packedge.png">
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo PackEdge" src="./images/competences/logo_packedge.png">
                             <p>PackEdge</p>
                         </div>
-                        <div class="box-logo box-logo-plato">
-                            <img class="logo-comptences logo-plato" src="./images/logo_plato.png">
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo Plato" src="./images/competences/logo_plato.png">
                             <p>Plato</p>
                         </div>
-                        <div class="box-logo box-logo-automation">
-                            <img class="logo-comptences logo-automation" src="./images/logo_automation.png">
+                        <div class="box-all-logo-competences--one-box">
+                            <img class="box-all-logo-competences--one-box__logo" alt="logo Automation" src="./images/competences/logo_automation.png">
                             <p>Automation</p>
                         </div>
                     </div>
-                </article>
-            </section>
-            <section class="box-formations" id="formations">
-                <article>
-                    <h1 class="h1-sections formation">Formations</h1>
-                    <a href="https://openclassrooms.com/fr/" target="_blank">
-                        <div class="box-formation box-formation-oc">
-                            <p class="dates-formations">2021</p>
-                            <img class="logo-formations" src="./images/logo_oc.png">
-                            <div class="box-formation-txt">
-                                <h2 class="h2-sections">Open Classroom</h2>
-                                <p class="txt">Développeur WEB Niveau BAC+2</p>
-                            </div>
+                </section>
+            </article>
+            <article class="article">
+                <h1>Formations</h1>
+                <section class="section">
+                    <div class="box-formations">
+                        <p class="box-formations--dates">2021</p>
+                        <img class="box-formations--logo" alt="logo open classroom" src="./images/formations/logo_oc.png">
+                        <div class="box-formations--txt">
+                            <h2>Open Classroom</h2>
+                            <p class="box-formations--txt__description">Développeur WEB Niveau BAC+2</p>
                         </div>
-                    </a>
-                    <a href="https://www.eni-ecole.fr/" target="_blank">
-                        <div class="box-formation box-formation-eni">
-                            <p class="dates-formations">2020</p>
-                            <img class="logo-formations" src="./images/logo_eni.png">
-                            <div class="box-formation-txt">
-                                <h2 class="h2-sections">Eni</h2>
-                                <p class="txt">Développeur WEB et WEB MOBILE Niveau BAC+3</p>
-                            </div>
+                    </div>
+                    <div class="box-formations">
+                        <p class="box-formations--dates">2020</p>
+                        <img class="box-formations--logo" alt="logo eni" src="./images/formations/logo_eni.png">
+                        <div class="box-formations--txt">
+                            <h2>Eni</h2>
+                            <p class="box-formations--txt__description">Développeur WEB et WEB Mobile Niveau BAC+3</p>
                         </div>
-                    </a>
-                    <a href="https://grafipolis.fr/" target="_blank">
-                        <div class="box-formation box-formation-graphipolis">
-                            <div class="box-dates">
-                                <p class="dates-formations ligne">2012</p>
-                                <p class="dates-formations">2009</p>
-                            </div>
-                            <img class="logo-formations" src="./images/logo_graphipolis.png">
-                            <div class="box-formation-txt">
-                                <h2 class="h2-sections">Grafipolis</h2>
-                                <p class="txt">Opérateur PAO Niveau BAC PRO</p>
-                            </div>
+                    </div>
+                    <div class="box-formations">
+                        <div>
+                            <p class="box-formations--dates ligne">2012</p>
+                            <p class="box-formations--dates">2009</p>
                         </div>
-                    </a>
-                </article>
-            </section>
-            <section class="box-experience" id="experiences">
-                <article>
-                    <div class="trait"></div>
-                    <h1 class="h1-sections experience">Expériences</h1>
-                    <div class="box-experiences ">
-                        <div class="box-dates">
-                            <p class="dates-formations ligne">2020</p>
-                            <p class="dates-formations">2017</p>
-                            <div class="trait-date"></div>
-                            <div class="rond-date"></div>
+                        <img class="box-formations--logo" alt="logo graphipolis" src="./images/formations/logo_graphipolis.png">
+                        <div class="box-formations--txt">
+                            <h2>Graphipolis</h2>
+                            <p class="box-formations--txt__description">Opérateur PAO Niveau BAC PRO</p>
                         </div>
-                        <img class="logo-experiences" src="./images/logo_interim.png">
-                        <div class="box-experiences-txt">
-                            <h2 class="h2-sections">Diverses missions intérim.</h2>
-                            <p class="txt">Missions Intérim. (Quelques fois en complément de salaire)</p>
-                            <p class="txt">Manutention, TP, BTP, Aggroalimentaire, Tertiaire ...</p>
-                        </div>  
+                    </div>
+                </section>
+            </article>
+            <article class="article">
+                <h1>Expériences</h1>
+                <section class="section">
+                    <div class="trait-vertical"></div>
+                    <div class="trait-horizontal th1"></div>
+                    <div class="trait-horizontal th2"></div>
+                    <div class="trait-horizontal th3"></div>
+                    <div class="trait-horizontal th4"></div>
+                    <div class="rond r1"></div>
+                    <div class="rond r2"></div>
+                    <div class="rond r3"></div>
+                    <div class="rond r4"></div>
+                    <div class="box-experiences">
+                        <div>
+                            <p class="box-experiences--dates ligne-exp">2020</p>
+                            <p class="box-experiences--dates">2021</p>
+                        </div>
+                        <img class="box-experiences--logo" alt="logo intérim" src="./images/experiences/logo_interim.png">
+                        <div class="box-experiences--txt">
+                            <h2>Diverses missions intérim.</h2>
+                            <p class="box-experiences--txt__description">Missions Intérim. (Quelques fois en complément de salaire)
+                            <br> Manutention, TP, BTP, Aggroalimentaire, Tertiaire ...</p>
+                        </div>
                     </div>
                     <div class="box-experiences">
-                        <div class="box-dates">
-                            <p class="dates-formations ligne">2019</p>
-                            <p class="dates-formations">2015</p>
-                            <div class="trait-date"></div>
-                            <div class="rond-date"></div>
+                        <div>
+                            <p class="box-experiences--dates ligne-exp">2019</p>
+                            <p class="box-experiences--dates">2015</p>
                         </div>
-                        <img class="logo-experiences" src="./images/logo_idemia.png">
-                        <div class="box-experiences-txt">
-                            <h2 class="h2-sections">IDEMIA (Oberthur Technologie)</h2>
-                            <p class="txt">CDD (8 mois) et CDI (3 ans et 4 mois)</p>
-                            <p class="txt">Technicien PAO / Opérateur PAO</p>
-                        </div>  
+                        <img class="box-experiences--logo" alt="logo idemia" src="./images/experiences/logo_idemia.png">
+                        <div class="box-experiences--txt">
+                            <h2>IDEMIA (Oberthur Technologie)</h2>
+                            <p class="box-experiences--txt__description">CDD (8 mois) et CDI (3 ans et 4 mois)
+                            <br>Technicien PAO / Opérateur PAO</p>
+                        </div>
                     </div>
                     <div class="box-experiences">
-                        <div class="box-dates">
-                            <p class="dates-formations ligne">2014</p>
-                            <p class="dates-formations">2012</p>
-                            <div class="trait-date"></div>
-                            <div class="rond-date"></div>
+                        <div>
+                            <p class="box-experiences--dates ligne-exp">2014</p>
+                            <p class="box-experiences--dates">2012</p>
                         </div>
-                        <img class="logo-experiences" src="./images/logo_mapub.png">
-                        <div class="box-experiences-txt">
-                            <h2 class="h2-sections">MA PUB.com</h2>
-                            <p class="txt">Auto-entrepreneur (2 ans)</p>
-                            <p class="txt">Création graphique, Vente de produits imprimés, Pose d'adhésifs etc.</p>
-                        </div>  
+                        <img class="box-experiences--logo" alt="logo mapub" src="./images/experiences/logo_mapub.png">
+                        <div class="box-experiences--txt">
+                            <h2>MA PUB.com</h2>
+                            <p class="box-experiences--txt__description">Auto-entrepreneur (2 ans)
+                            <br>Création graphique, Vente de produits imprimés, Pose d'adhésifs etc.</p>
+                        </div>
                     </div>
                     <div class="box-experiences">
-                        <div class="box-dates">
-                            <p class="dates-formations ligne">2012</p>
-                            <p class="dates-formations">2009</p>
-                            <div class="trait-date"></div>
-                            <div class="rond-date"></div>
+                        <div>
+                            <p class="box-experiences--dates ligne-exp">2012</p>
+                            <p class="box-experiences--dates">2009</p>
                         </div>
-                        <img class="logo-experiences" src="./images/logo_ag.png">
-                        <div class="box-experiences-txt">
-                            <h2 class="h2-sections">AG com services</h2>
-                            <p class="txt">Opérateur PAO (3 ans)</p>
-                            <p class="txt">Création graphique, Impression, Pose d'adhésifs, Flocage textile etc.</p>
-                        </div>  
+                        <img class="box-experiences--logo" alt="logo ag com services" src="./images/experiences/logo_ag.png">
+                        <div class="box-experiences--txt">
+                            <h2>AG com services</h2>
+                            <p class="box-experiences--txt__description">Opérateur PAO (3 ans)
+                            <br>Création graphique, Impression, Pose d'adhésifs, Flocage textile etc.</p>
+                        </div>
                     </div>
-                </article>
-            </section>
-            <section class="box-book" id="books">
-                <article>
-                    <h1 class="h1-sections book">Book</h1>
-                    <h2 class="h2-sections h2-book">Reservia (Projet 2 OC)</h2>
-                    <p class="txt">Utilisation des languages HTML CSS, Respect des normes W3C et de la maquette fournis, Site responsive. </p>
-                    <div class="box-img-book">
-                        <a class="border-book" href="https://eco0431.github.io/CoffecElie_2_09062021/" target="_blank">
-                            <img class="img-book" src="./images/book_reservia.png">
-                            <img class="img-book-tablette" src="./images/book_reservia_tablette.png">
-                            <img class="img-book-mobile" src="./images/book_reservia_mobile.png">
-                        </a>
+                </section>
+            </article>
+            <article class="article">
+                <h1>Book</h1>
+                <section class="section">
+                    <div class="box-book">
+                        <h2>Reservia (Projet 2 OC)</h2>
+                        <p class="txt-book">Utilisation des languages HTML CSS, Respect des normes W3C et de la maquette fournis, Site responsive.</p>
+                        <div class="box-img-book">
+                            <img class="box-img-book--desktop" src="./images/book/book_reservia.png">
+                            <img class="box-img-book--tablette" src="./images/book/book_reservia_tablette.png">
+                            <img class="box-img-book--mobile" src="./images/book/book_reservia_mobile.png">
+                        </div>
                     </div>
-                    <h2 class="h2-sections h2-book margin-top">Ohmyfood (Projet 3 OC)</h2>
-                    <p class="txt">Site mobile first, Respect des normes W3C et de la maquette fournis, utilisationn des languages HTML et Sass, Animation Css, Site responsive. </p>
-                    <div class="box-img-book">
-                        <a class="border-book" href="https://eco0431.github.io/CoffecElie_3_20072021/" target="_blank">
-                            <img class="img-book" src="./images/book_ohmyfood.png">
-                            <img class="img-book-tablette" src="./images/book_ohmyfood_tablette.png">
-                            <img class="img-book-mobile" src="./images/book_ohmyfood_mobile.png">
-                        </a>
+                    <div class="box-book margin-top-book">
+                        <h2>Ohmyfood (Projet 3 OC)</h2>
+                        <p class="txt-book">Site mobile first, Respect des normes W3C et de la maquette fournis, utilisationn des languages HTML et Sass, Animation Css, Site responsive.</p>
+                        <div class="box-img-book">
+                            <img class="box-img-book--desktop" src="./images/book/book_ohmyfood.png">
+                            <img class="box-img-book--tablette" src="./images/book/book_ohmyfood_tablette.png">
+                            <img class="box-img-book--mobile" src="./images/book/book_ohmyfood_mobile.png">
+                        </div>
                     </div>
-                    <h2 class="h2-sections h2-book margin-top">La Chouette Agence (Projet 4 OC)</h2>
-                    <p class="txt">Correction d'un site éxistant afin d'optimiser les images, respecter les normes WCAG et W3C. </p>
-                    <div class="box-img-book">
-                        <a class="border-book" href="https://eco0431.github.io/CoffecElie_4_28072021/" target="_blank">
-                            <img class="img-book" src="./images/book_chouette.png">
-                            <img class="img-book-tablette" src="./images/book_chouette_tablette.png">
-                            <img class="img-book-mobile" src="./images/book_chouette_mobile.png">
-                        </a>
+                    <div class="box-book margin-top-book">
+                        <h2>La Chouette Agence (Projet 4 OC)</h2>
+                        <p class="txt-book">Correction d'un site éxistant afin d'optimiser les images, respecter les normes WCAG et W3C.</p>
+                        <div class="box-img-book">
+                            <img class="box-img-book--desktop" src="./images/book/book_chouette.png">
+                            <img class="box-img-book--tablette" src="./images/book/book_chouette_tablette.png">
+                            <img class="box-img-book--mobile" src="./images/book/book_chouette_mobile.png">
+                        </div>
                     </div>
-                    <h2 class="h2-sections h2-book margin-top">Orinoco (Projet 5 OC)</h2>
-                    <p class="txt">Maquette à réaliser, Utilisation de html css et js, Récupération des datas d'une API. </p>
-                    <div class="box-img-book">
-                        <a class="border-book" href="https://github.com/ECo0431/CoffecElie_5_15092021" target="_blank">
-                            <img class="img-book" src="./images/book_orinoco.png">
-                            <img class="img-book-tablette" src="./images/book_orinoco_tablette.png">
-                            <img class="img-book-mobile" src="./images/book_orinoco_mobile.png">
-                        </a>
+                    <div class="box-book margin-top-book">
+                        <h2>Orinoco (Projet 5 OC)</h2>
+                        <p class="txt-book">Maquette à réaliser, Utilisation de html css et js, Récupération des datas d'une API.</p>
+                        <div class="box-img-book">
+                            <img class="box-img-book--desktop" src="./images/book/book_orinoco.png">
+                            <img class="box-img-book--tablette" src="./images/book/book_orinoco_tablette.png">
+                            <img class="box-img-book--mobile" src="./images/book/book_orinoco_mobile.png">
+                        </div>
                     </div>
-                    <h2 class="h2-sections h2-book margin-top">Hot Takes (Projet 6 OC)</h2>
-                    <p class="txt">Front-end fournis, réalisation de la partie Back-end, utilisation de Mongo DB et NODE JS. </p>
-                    <div class="box-img-book">
-                        <a class="border-book" href="https://github.com/ECo0431/P6_Coffec_Elie_05112021" target="_blank">
-                            <img class="img-book" src="./images/book_hot_takes.png">
-                            <img class="img-book-tablette" src="./images/book_hot_takes_tablette.png">
-                            <img class="img-book-mobile" src="./images/book_hot_takes_mobile.png">
-                        </a>
+                    <div class="box-book margin-top-book">
+                        <h2>Hot Takes (Projet 6 OC)</h2>
+                        <p class="txt-book">Front-end fournis, réalisation de la partie Back-end, utilisation de Mongo DB et NODE JS.</p>
+                        <div class="box-img-book">
+                            <img class="box-img-book--desktop" src="./images/book/book_hot_takes.png">
+                            <img class="box-img-book--tablette" src="./images/book/book_hot_takes_tablette.png">
+                            <img class="box-img-book--mobile" src="./images/book/book_hot_takes_mobile.png">
+                        </div>
                     </div>
-                    <h2 class="h2-sections h2-book margin-top">Groupomania (Projet 7 OC)</h2>
-                    <p class="txt">Création d'un réseau social d'entreprise, réalisation de la maquette, utilisation de SQL, NODE JS, HTML, SASS, REACT. </p>
-                    <div class="box-img-book">
-                        <a class="border-book" href="https://github.com/ECo0431/CoffecElie_5_15092021" target="_blank">
-                            <img class="img-book" src="./images/book_groupomania.png">
-                            <img class="img-book-tablette" src="./images/book_groupomania_tablette.png">
-                            <img class="img-book-mobile" src="./images/book_groupomania_mobile.png">
-                        </a>
+                    <div class="box-book margin-top-book">
+                        <h2>Groupomania (Projet 7 OC)</h2>
+                        <p class="txt-book">Création d'un réseau social d'entreprise, réalisation de la maquette, utilisation de SQL, NODE JS, HTML, SASS, REACT.</p>
+                        <div class="box-img-book">
+                            <img class="box-img-book--desktop" src="./images/book/book_groupomania.png">
+                            <img class="box-img-book--tablette" src="./images/book/book_groupomania_tablette.png">
+                            <img class="box-img-book--mobile" src="./images/book/book_groupomania_mobile.png">
+                        </div>
                     </div>
-                </article>
-            </section>
+                </section>
+            </article>
         </main>
     </div>
-    <a href="#body">
-        <svg class="picto-fleche" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="#000000"><g><rect fill="none" height="24" width="24"/><path d="M12,20c-4.41,0-8-3.59-8-8s3.59-8,8-8s8,3.59,8,8S16.41,20,12,20 M12,22c5.52,0,10-4.48,10-10c0-5.52-4.48-10-10-10 C6.48,2,2,6.48,2,12C2,17.52,6.48,22,12,22L12,22z M11,12l0,4h2l0-4h3l-4-4l-4,4H11z"/></g></svg>
-    </a>
 </body>
 </html>

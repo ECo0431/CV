@@ -1,61 +1,131 @@
 .box-experiences {
-  z-index: 1;
-  position: relative;
   display: flex;
   align-items: center;
-  margin-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0px 40px 0px;
+
+  &--dates {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  &--logo {
+    width: 120px;
+    margin-left: 20px;
+  }
+
+  &--txt {
+    margin-left: 20px;
+
+    &__description {
+      font-size: 1.3em;
+    }
+  }
 }
 
-.box-experience {
-  animation: animFormations 2.5s ease-in-out;
-  z-index: 1;
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-  padding-bottom: 40px;
-}
-
-.logo-experiences {
-  width: 110px;
-}
-
-.trait {
+.trait-vertical {
+  background-color: #d5d4d2;
+  height: 604px;
   width: 3px;
-  height: 573px;
-  background-color: #d5d4d2;
   position: absolute;
-  top: 189px;
-  left: 136px;
+  top: 213px;
+  left: 128px;
 }
 
-.trait-date {
-  width: 95px;
-  height: 2px;
+.trait-horizontal {
   background-color: #d5d4d2;
+  height: 3px;
+  width: 91px;
   position: absolute;
-  top: 54px;
-  left: 0px;
+  left: 40px;
 }
 
-.rond-date {
-  border-radius: 100%;
+// @for $i from 1 through 4 {
+//   .th#{$i} {
+//     top: ($i * 2 (13px));
+//   }
+// }
+
+.th1 {
+  top: 213px;
+}
+
+.th2 {
+  top: 413px;
+}
+
+.th3 {
+  top: 613px;
+}
+
+.th4 {
+  top: 813px;
+}
+
+.rond {
+  background-color: #d5d4d2;
   width: 10px;
   height: 10px;
-  background-color: #d5d4d2;
+  border-radius: 100%;
   position: absolute;
-  top: 50px;
-  left: 92px;
+  left: 124px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 799px) {
-  .box-experiences {
-    flex-direction: column;
+.r1 {
+  top: 209px;
+}
+
+.r2 {
+  top: 409px;
+}
+
+.r3 {
+  top: 609px;
+}
+
+.r4 {
+  top: 809px;
+}
+
+@media screen and (max-width: 941px) {
+  .ligne-exp {
+    border-bottom: 3px solid #d5d4d2;
   }
-  .trait-date,
-  .trait,
-  .rond-date {
+}
+
+@media screen and (min-width: 0px) and (max-width: 940px) {
+  .trait-vertical {
     display: none;
+  }
+
+  .trait-horizontal {
+    display: none;
+  }
+  .rond {
+    display: none;
+  }
+
+  .box-experiences {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px 40px 0px;
+
+    &--dates {
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    &--logo {
+      width: 120px;
+      margin-left: 0px;
+    }
+
+    &--txt {
+      margin-left: 0px;
+
+      &__description {
+        font-size: 1.3em;
+      }
+    }
   }
 }

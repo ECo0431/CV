@@ -1,10 +1,10 @@
 {
-  "name": "cv_elie_coffec",
+  "name": "cv_elie_coffec_2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+    "sass": "sass --watch ./sass/main.scss:.public/css/style.css"
   },
   "author": "",
   "license": "ISC"

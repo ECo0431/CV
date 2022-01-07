@@ -1,94 +1,60 @@
+.txt-book {
+  font-size: 1.3em;
+}
+
+.margin-top-book {
+  margin-top: 160px;
+}
+
 .box-img-book {
-  display: flex;
-  margin-top: 20px;
   position: relative;
-}
-
-.img-book {
-  width: 700px;
-  border-radius: 20px;
-  border: 10px solid white;
-  box-shadow: 0px 0px 20px #848484;
-}
-
-.img-book-tablette {
-  width: 350px;
-  position: absolute;
-  top: 72px;
-  left: 637px;
-  border: 7px solid white;
-  box-shadow: 0px 0px 20px #848484;
-  border-radius: 20px;
-}
-
-.img-book-mobile {
-  width: 200px;
-  position: absolute;
-  top: 218px;
-  left: 910px;
-  border: 5px solid white;
-  box-shadow: 0px 0px 20px #848484;
-  border-radius: 20px;
-}
-
-.h2-book {
-  margin-top: 20px;
-}
-
-.border-book {
-  transition-duration: 2s;
-}
-
-.border-book:hover {
-  width: 100%;
-  transform: rotate(-1deg);
-  transition-duration: 2s;
-}
-
-.margin-top {
-  margin-top: 80px;
-}
-
-@media screen and (min-width: 900px) and (max-width: 1250px) {
-  .img-book {
+  &--desktop {
     width: 700px;
+    border-radius: 20px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 20px #848484;
+    margin-top: 40px;
   }
 
-  .img-book-tablette {
-    display: none;
+  &--tablette {
+    width: 350px;
+    position: absolute;
+    top: 103px;
+    left: 637px;
+    border: 7px solid white;
+    box-shadow: 0px 0px 20px #848484;
+    border-radius: 20px;
   }
-
-  .img-book-mobile {
-    display: none;
+  &--mobile {
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    left: 910px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 20px #848484;
+    border-radius: 20px;
   }
 }
-@media screen and (min-width: 700px) and (max-width: 899px) {
-  .img-book {
-    width: 600px;
-  }
 
-  .img-book-tablette {
-    display: none;
-  }
-
-  .img-book-mobile {
-    display: none;
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 699px) {
-  .img-book {
-    width: 300px;
-  }
-
-  .img-book-tablette {
-    display: none;
-  }
-
-  .img-book-mobile {
-    display: none;
-  }
-
+@media screen and (min-width: 0px) and (max-width: 1240px) {
   .box-img-book {
+    position: relative;
+    display: flex;
     justify-content: center;
+    &--desktop {
+      width: 100%;
+      border-radius: 20px;
+      border: 10px solid white;
+      box-shadow: 0px 0px 20px #848484;
+      margin-top: 40px;
+    }
+
+    &--tablette {
+      display: none;
+    }
+    &--mobile {
+      display: none;
+    }
   }
 }
+//test
